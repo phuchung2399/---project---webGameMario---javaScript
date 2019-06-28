@@ -1,0 +1,34 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>[Phuc Hung - PNV20]</title>
+<link href="image/style.css" rel="stylesheet" />
+<link rel="stylesheet" href="Boostrap/css/bootstrap.min.css">
+</head>
+<body>
+    <div>
+        <video id="video-backgroud" class=" video-fluid" autoplay loop muted>
+            <source src="video/video-backgroud-1.mp4" type="video/mp4" />
+        </video>
+    </div>
+        
+    <div id="game" class="windownGame border border-success">
+            <div id="world"><!-- Cửa sổ trò chơi--></div>
+            <div id="coinNumber" class="gauge">0</div>  <!-- Vàng thu được trò chơi-->
+            <div id="liveNumber" class="gauge">0</div> <!-- Mạng[Số lần chơi còn lại] trong trò chơi-->
+    </div>
+        <audio controls autoplay>
+            <source src="mp3/mp3-backgroud.mp3" type="audio/mpeg">
+        </audio>
+<!-- Giúp các function chạy mượt [ Không load lại trang]-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> 
+<!-- end-->
+<script>window.jQuery || document.write('<script src="Boostrap/js/jQuery.js"><\/script>')</script>
+<script src="Boostrap/js/testlevels.js"></script>
+<script src="Boostrap/js/oop.js"></script>
+<script src="Boostrap/js/keys.js"></script>
+<script src="Boostrap/js/constants.js"></script>
+<script src="Boostrap/js/main.js"></script>
+</body>
+</html>
